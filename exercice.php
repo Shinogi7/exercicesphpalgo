@@ -19,28 +19,28 @@ for ($i = 1;$i <= 50; $i++) {
 
 echo "<br> Exercice 2 : Écrivez un programme PHP qui prend en entrée un tableau de nombres et renvoie la somme de tous les éléments du tableau. <br>";
 
-$liste_nombre = array(1,5,4,6,7,2);
+    $liste_nombre = array(1,5,4,6,7,2);
 
-$somme = array_sum($liste_nombre);
+    $somme = array_sum($liste_nombre);
 
-echo "<br> $somme <br>";
+        echo "<br> $somme <br>";
 
 
 echo "<br> Exercice 3 : Écrivez un programme PHP qui prend en entrée une chaîne de caractères et renvoie la longueur de cette chaîne. <br>"
 
-//Input de la chaine de caractère en html, 
 
 ?> 
-<form action="exercice.php" method="get">
-Entrez une chaine de caractère : <Input type="text" name="chaine">
-</form><?php
 
-$chaine = $_GET["chaine"];
+    <form action="exercice.php" method="get">
+        Entrez une chaine de caractère : <Input type="text" name="chaine">
+    </form><?php
 
-$longchaine = strlen($chaine);
+            $chaine = $_GET["chaine"];
+
+            $longchaine = strlen($chaine);
 
 
-echo("$chaine = $longchaine");
+                echo("$chaine = $longchaine");
 
 
 
